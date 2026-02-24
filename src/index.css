@@ -6,18 +6,19 @@
   html {
     direction: rtl;
   }
-  
-  body {
-    font-family: system-ui, -apple-system, sans-serif;
-  }
 }
 
 @layer components {
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  .bg-burgundy {
+    background-color: #800020;
   }
-  
-  .btn-primary {
-    @apply bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors;
+  .hover\:bg-burgundy-dark:hover {
+    background-color: #600018;
+  }
+  .text-burgundy {
+    color: #800020;
+  }
+  .border-burgundy {
+    border-color: #800020;
   }
 }
