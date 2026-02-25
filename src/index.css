@@ -21,4 +21,40 @@
   .border-burgundy {
     border-color: #800020;
   }
+
+   
+  /* رنگ‌های بکگراند برای کارت محصولات */
+  .bg-product-1 {
+    background-color: #f8e1e1; /* صورتی خیلی روشن */
+  }
+  .bg-product-2 {
+    background-color: #f0e1d8; /* کرم */
+  }
+  .bg-product-3 {
+    background-color: #f5d8d8; /* رز */
+  }
+  .bg-product-4 {
+    background-color: #f5e6d3; /* کرم مایل به زرد */
+  }
+  .bg-product-5 {
+    background-color: #f0d8e0; /* صورتی ملایم */
+  }
+  
+  /* رنگ‌های بکگراند برای ترندها */
+  .bg-trend-1 {
+    background-color: #fee9e9; /* قرمز خیلی روشن */
+  }
+  .bg-trend-2 {
+    background-color: #e6f0fa; /* آبی خیلی روشن */
+  }
+  .bg-trend-3 {
+    background-color: #faf0e6; /* کرم */
+  }
+  .bg-trend-4 {
+    background-color: #fee9f0; /* صورتی */
+  }
+  .bg-trend-5 {
+    background-color: #eaf0d8; /* سبز زیتونی خیلی روشن */
+  }
+
 }
