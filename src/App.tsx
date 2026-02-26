@@ -1,9 +1,11 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { AuthProvider } from './context/AuthContext';
 import Landing from './pages/Landing/Landing';
 
 function App() {
   return (
     <BrowserRouter>
+    <AuthProvider>
       <Routes>
         {/* صفحه لندینگ در مسیر اصلی */}
         <Route path="/" element={<Landing />} />
@@ -13,6 +15,7 @@ function App() {
         {/* <Route path="/product/:id" element={<ProductPage />} /> */}
         {/* <Route path="/cart" element={<CartPage />} /> */}
       </Routes>
+      </AuthProvider>
     </BrowserRouter>
   );
 }
